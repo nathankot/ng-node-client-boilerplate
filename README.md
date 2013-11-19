@@ -1,5 +1,31 @@
 # NK's Cilentside Boilerplate
 
+## Use Yeoman
+
+This boilerplate is based off [yeoman/generator-angular][yg] and you can still
+use their generators once you've installed yo.
+
+E.g:
+
+``` bash
+$ yo angular:directive myNewDirective
+```
+
+## Express as asset server
+
+In addition to the `yo angular` boilerplate, I tacked on [express][expres] as a static
+asset server. Probably overkill and something like [connect][connect] would
+do, but the added flexibility may be helpful.
+
+## Build around an API
+
+Ultimately you should be building around an API server, this can be anything
+from Rails to another express instance.
+
+[yg]: https://github.com/yeoman/generator-angular
+[express]: https://github.com/visionmedia/express
+[connect]: https://github.com/senchalabs/connect
+
 ## License
 
 > The MIT License (MIT)
