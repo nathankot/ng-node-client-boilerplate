@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "dependencies": {
     "npm": "~1.3.11",
-    "express": "3.4.4"
+    "express": "3.4.4",
+    "lodash": "~2.3.0"
   },
   "devDependencies": {
     "bower": "~1.2.7",
@@ -42,7 +43,6 @@
     "karma-phantomjs-launcher": "~0.1.0",
     "karma": "~0.10.4",
     "karma-ng-html2js-preprocessor": "~0.1.0",
-
     "grunt-contrib-stylus": "~0.9.0",
     "grunt-cli": "~0.1.10",
     "grunt-includes": "https://github.com/nathankot/grunt-includes/archive/master.tar.gz",
