@@ -191,6 +191,7 @@ module.exports = function (grunt) {
       server: {
         tasks: [
           'stylus:dist',
+          'nodemon:dev',
           'watch',
         ],
         options: {
@@ -234,6 +235,19 @@ module.exports = function (grunt) {
           '<%= yeoman.dist %>/scripts/scripts.js': [
             '<%= yeoman.dist %>/scripts/scripts.js'
           ]
+        }
+      }
+    },
+    env: {
+      dev: {
+        src: '.env'
+      }
+    },
+    nodemon: {
+      dev: {
+        options: {
+          file: 'app.js',
+          nodeArgs: []
         }
       }
     }
