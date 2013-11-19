@@ -11,3 +11,6 @@ angular.module('sampleApp', [])
         redirectTo: '/'
       });
   });
+
+angular.module('sampleApp').constant('lodash', window._);
+angular.module('wed.isApp').constant('jQuery', window.$);
