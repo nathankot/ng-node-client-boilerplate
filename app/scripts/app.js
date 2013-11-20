@@ -13,4 +13,4 @@ angular.module('sampleApp', [])
   });
 
 angular.module('sampleApp').constant('lodash', window._);
-angular.module('wed.isApp').constant('jQuery', window.$);
+angular.module('sampleApp').constant('jQuery', window.$);
